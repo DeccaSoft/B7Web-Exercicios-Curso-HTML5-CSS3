@@ -1,0 +1,41 @@
+@keyframes animacao{
+    0%{background-color: red; top: 0px; left: 0px;}
+    25%{background-color: yellow; top: 0px; left: 500px;}
+    50%{background-color: blue; top: 500px; left: 500px;}
+    75%{background-color: green; top: 500px; left: 0px;}
+    100%{background-color: red; top: 0px; left: 0px;}
+}
+
+body{
+    margin: 0px;
+}
+.exemplo{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    box-shadow: 10px, 10px, 5px, #888888; /* Horizontal, Vertical, Blur(Difusão/Esfumaçado), Cor */
+    position: absolute;
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.q2{
+    width: 200px;
+    height: 200px;
+    margin-top: 225px;
+    margin-left: 225px;
+    background-color: blueviolet;
+    /* overflow: hidden */
+    word-wrap: break-word;      /* Esconde o resto da palavra */
+    transition: all 1s linear ; /* Propriedades, Duraçao, Transição */
+}
+
+.q2:hover{
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+

@@ -1,0 +1,51 @@
+html{
+    font-size: 10px;
+    color: red; /* Selecionando cor pelo nome */
+}
+
+body{
+    font-size: 20px;
+    color: #0000ff /* Selecionando cor pelo Hexadecimal #rrggbb */
+}
+
+.box{
+    font-size: 20px;
+    background-color: #999; /* Selecionando cor pelo Hexadecimal com 3 valores somente #rgb - os demais são repetidos... é o mesmo que #rrggbb */
+    width: 50%;
+}
+
+.box-interno{
+    width: 10em; /* 10em = 400px, pois o elemento pai é a div box que possui um tamanho de fonte = 40px. */
+    height: 10em;
+    background-color: rgb(255, 255, 0); /* Cor pelo padrão RGB */
+    width: 50%; /* Relativo ao espaço disponível do elemento determinado */
+}
+
+h1{
+    font-size: 3rem; /* 3rem(root-em) = 30px, pois o elemento root é o html que possui um tamanho de fonte = 10px. */
+}
+
+h2{
+    font-size: 10ex; /* 10 vezes o tamanho da Letra 'x'do elemento pai */
+    color: hsl(147, 50%, 47%); /* Cor pelo padrão hsl (hue, saturation%, lightness%) - Matiz, Saturação%, Luminosidade% */
+}
+
+h3{
+    font-size: 2ch; /* ch (character unit) = tamanho de um caracter da fonte utilizada, qeu deve ser monospace. */
+}
+
+.box3{
+    background-color: #ddd;
+    height: 50vh;   /* Relativo à Altura disponível na tela */
+    width: 75vw;    /* Relativo à Largura disponível na tela */
+}
+
+#mae{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+h4{
+    font-size: inherit;
+    color: currentColor; /* Selecionando a cor corrente do Elemento pai, no caso a div 'mae', onde a cor é o aquamarine */
+}

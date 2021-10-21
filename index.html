@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="blablabla.php" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="Brasil">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="">
+                Primeiro Nome:* <br />
+                <input type="text" name="name" id="" required minlength="2">
+            </label><br>
+            <label for="">
+                Sobrenome: <br />
+                <input type="text" name="lastname" id="">
+            </label><br>
+            <label for="">
+                Idade: <br />
+                <input type="number" name="age" id="" step="1" min="0" max="120">
+            </label><br>
+            <label for="">
+                Foto: <br />
+                <input type="file" name="photo" id="" accept="image/*">
+            </label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label for="">
+                Nome da Empresa: <br />
+                <input type="text" name="companynamne" id="">
+            </label><br>
+            <label for="">
+                Nome da Empresa: <br />
+                <input type="text" name="companynamne" id="">
+            </label><br>
+            <label for="">
+                E-Mail: <br />
+                <input type="email" name="email" id="" pattern="(^[a-zA-Z0-9_+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="Endereço de E-Mail">
+            </label><br>
+            <label for="">
+                Data: <br />
+                <input type="date" name="date" id="" min="1900-01-15">
+            </label><br><br>
+        </fieldset><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>

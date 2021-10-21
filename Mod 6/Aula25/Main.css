@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    min-height: 600px;
+}
+
+aside{
+    background-color: blueviolet;
+    width: 200px;
+}
+
+main{
+    flex: 1;
+    background-color: brown;
+}
+
+figure{
+    padding: 5px;
+    margin: 0;
+    border: 10px solid #ccc;
+}
+
+figcaption{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+}
+
+footer{
+    background-color: burlywood;
+    min-height: 100px;
+}

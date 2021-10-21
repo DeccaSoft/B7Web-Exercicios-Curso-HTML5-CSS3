@@ -1,0 +1,15 @@
+/* Tamanhos Padrão para Responsividade / Adaptabilidade */
+/* 320 - 480 - 760 - 960 - 1200 - 1600 */
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain; /* redimensiona para caber dentro do espaço sem distorcer a imagem */
+    object-fit: fill; /* Padrão - Deforma a Imagem para adaptar */
+    object-fit: none; /* Corta a imagem sem ajustar o tamanho */
+    object-fit: scale-down; /* Semelhante ao contain */
+    object-fit: inherit; /*  */
+    object-fit: initial; /*  */
+    object-fit: unset; /*  */
+    object-fit: cover; /* Corta a Imagem pelo centro mantendo a proporção */
+}

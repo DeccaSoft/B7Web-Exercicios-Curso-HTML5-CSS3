@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+#teste{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 600px;
+    height: 100px;
+
+    border-radius: 10px;
+
+    background-color: green; /*Padrão */
+    background: linear-gradient(105deg, green, white, yellow); /* Direção(Graus -75deg / ), Cor1, Cor2, Cor3... */
+}
+
+q{
+    color: darkred;
+    font-style: italic ;
+}
