@@ -1,0 +1,97 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: cadetblue;
+    width: 95%;
+    text-align: center;
+    color: white;
+    position: sticky;
+    top: 15px;
+}
+
+.titlePage{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 7px 4px 5px #FC6D43;
+}
+
+.titlePage p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.subTitle{
+    font-weight: bold;
+}
+
+.description{
+    text-align: center;
+}
+
+figcaption{
+    background-color: azure;
+    width: 25%;
+    margin: auto;
+}
+
+.summary{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+}
+
+.timeLine{
+    text-align: center;
+}
+
+.title p{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: cadetblue;
+    width: 95%;
+    margin: auto;
+    color: white;
+    padding: 15px 0px;
+}
+
+table{
+    margin-top: 30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #FC6D43 solid;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+tr{
+    border: 3px #FC6D43 solid;
+}
+
+tr:nth-child(odd){
+    background: #aaa;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background: #FFF;
+}
+
+.hr{
+    background-color: #FC6D43;
+    width: 95%;
+    height: 2px;
+}
+
+footer{
+    text-align: center;
+}

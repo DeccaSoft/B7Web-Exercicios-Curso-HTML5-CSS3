@@ -1,0 +1,74 @@
+input, a{
+    display: block;
+}
+
+[required]{
+    background-color: red;
+}
+
+a[required]{
+    background-color: green;
+}
+
+input[type=password]{
+    background-color: blueviolet;
+}
+
+a[name="link"]{
+    background-color: yellow;
+}
+
+/* O '*' faz com que selecione-se todos href que contenham ínstagram' */
+a[href*="instagram"]{
+    background-color: aqua;
+}
+
+/* O '^' faz com que selecione-se todos href que comecem com 'https' */
+a[href^="https"]{
+    color: white;
+}
+
+a[href^="http:"]{
+    font-size: 30px;
+}
+
+a[href^="http:"]{
+    color: coral;
+}
+
+/* O '$' faz com que selecione-se todos href que terminem em 'com' */
+a[href$="com"]{
+    color: black;
+}
+
+/* Selecionado um elemento vazio */
+div:empty{
+    background-color: brown;
+    height: 30px;
+}
+
+/* os '::" indicam que o seletor é do conteúdo e nào do elemento */
+p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p::first-line{
+    background-color: bisque;
+}
+
+div{
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+}
+
+div:first-child{
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+}
+
+div:last-child{
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius: 30px;
+}

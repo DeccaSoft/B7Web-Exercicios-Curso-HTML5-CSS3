@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(80, 79, 79);
+    color: #fff;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    line-height: 50px;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.menu{
+    color: #fff;
+    width: 25%;
+}
+
+.menu i{
+    color: #fff;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.degrade{
+    background-image: linear-gradient(rgb(77, 77, 245), rgb(79, 213, 236));
+}
+
+.image{
+    width: 75%;
+    padding: 50px;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.description{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.description p{
+    line-height: 30px;
+    text-align: justify;
+    color: #fff;
+}
+
+.description a{
+    background-color: rgb(77, 77, 245);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.c2{
+    flex-direction: column;
+    text-align: center;
+}
+
+.title h1{
+    color: black;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.itemGrid{
+    width: 33%;
+    margin-left: 5px;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.icon img{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.content p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 5%;
+}
+

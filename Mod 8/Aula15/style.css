@@ -1,0 +1,25 @@
+body{
+    background-image: url('paisagem.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+div{
+    background-color: rgba(255, 0, 0, 0.5);
+    /*a - alfa = TRansparência => de 0 a 1*/
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+    transform: scale(0.5); /*Reduz a escala do objeto pela metade*/
+    transform: scale(2, 1); /*Aumenta a escala do objeto para o dobro na horizontal*/
+    transform: scaleY(2); /*Z altera a escala do objeto na Vertical*/
+    transform: scale(1);
+
+    transform: rotate(30deg); /*Rotaciona o objeto 30 graus no sentido horário pelo centro == Mesmo que rotateZ*/
+
+    transform: rotateX(50deg); /*Rotaciona o objeto 50 graus pelo eixo central horizontal)*/
+    transform: rotateY(100deg); /*Rotaciona o objeto 50 graus pelo eixo central Vertical)*/
+
+    transform: skew(20deg); /*Destorce o objeto 20 graus)*/
+}

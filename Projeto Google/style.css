@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header a{
+    padding: 5px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header img{
+    border-radius: 50px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem img{
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    margin-top: 75px;
+}
+
+.search{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.atalhos{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+figure img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
